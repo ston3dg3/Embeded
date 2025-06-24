@@ -1,0 +1,99 @@
+### Grading of Deliverable1/Franciszek Hordejuk - moodleid_175673/1748352877/PartA started at 2025-05-27 16:00:47.069097 ### 
+
+Trying to flash Deliverable1/Franciszek Hordejuk - moodleid_175673/1748352877/PartA/build/main.hex ... successful.
+Starting check of output for PartA. Observing LEDs... recorded 3504 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748352877/PartA/scope_0001.png ... Finished.
+Checking for activity on the LEDs...
+Selected LED1 as active, using it for further grading.
+Checking if there is a break of 5s +/- 0.5s... Found: 1.400000, 5.099999, 1.400000, 1.400000  Passed.
+Trying to decode:
+_c a n_m o r s e
+i_c a n_m o r s e_
+NOTE: Unclassifiable high or low times are marked with ^ and _ respectively. If a letter could not be decoded, the dot-dash pattern is printed in paranthesis. Auto-detected dot length: 0.100000s
+Checking auto detected dotlength is within 100ms +/- 10ms...  Passed.
+Checking if any letter could be decoded...  Passed.
+Checking if the whole string could be decoded...  Failed.
+Checking for incorrect high/low times...  Failed.
+### Grading of Deliverable1/Franciszek Hordejuk - moodleid_175673/1748352877/PartB started at 2025-05-27 16:05:00.335612 ### 
+
+Trying to flash Deliverable1/Franciszek Hordejuk - moodleid_175673/1748352877/PartB/build/main.hex ... successful.
+Starting check of output for PartB.
+Resetting target to take time after boot.
+Observing LEDs... recorded 1200 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748352877/PartB/scope_0006.png ... Finished.
+Checking for no activity on the LEDs...
+  Passed.
+Checking output after pressing Button2 once... recorded 1728 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748352877/PartB/scope_0007.png ... Finished.
+Checking for activity on the LEDs...
+Selected LED1 as active, using it for further grading.
+  Passed.
+Trying to decode:
+0_
+NOTE: Unclassifiable high or low times are marked with ^ and _ respectively. If a letter could not be decoded, the dot-dash pattern is printed in paranthesis. Auto-detected dot length: 0.100000s
+Checking if a numeric value is sent...  Passed.
+Checking if single 0 is sent, expecting a value between 0 and 0...  Passed.
+Checking output after pressing Button1 once... recorded 3504 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748352877/PartB/scope_0008.png ... Finished.
+Checking for activity on the LEDs...
+Selected LED1 as active, using it for further grading.
+  Passed.
+Trying to decode:
+i_c_a_n_m_o_r_s_e_
+NOTE: Unclassifiable high or low times are marked with ^ and _ respectively. If a letter could not be decoded, the dot-dash pattern is printed in paranthesis. Auto-detected dot length: 0.100000s
+Checking if the required string is transmitted exactly once...  Failed.
+Checking output after pressing Button2 again... recorded 3408 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748352877/PartB/scope_0009.png ... Finished.
+Checking for activity on the LEDs...
+Selected LED1 as active, using it for further grading.
+  Passed.
+Trying to decode:
+4_2_8_0_0_
+NOTE: Unclassifiable high or low times are marked with ^ and _ respectively. If a letter could not be decoded, the dot-dash pattern is printed in paranthesis. Auto-detected dot length: 0.100000s
+Checking if a numeric value is sent...  Passed.
+Checking if time in ms between boot and last press of Button1 is sent, expecting a value between 42758 and 43258...  Failed.
+Checking output after pressing Button1 again... recorded 3504 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748352877/PartB/scope_0010.png ... Finished.
+Checking for activity on the LEDs...
+Selected LED1 as active, using it for further grading.
+  Passed.
+Trying to decode:
+i_c_a_n_m_o_r_s_e_
+NOTE: Unclassifiable high or low times are marked with ^ and _ respectively. If a letter could not be decoded, the dot-dash pattern is printed in paranthesis. Auto-detected dot length: 0.100000s
+Checking if the required string is transmitted exactly once...  Failed.
+Checking output after pressing Button2 again... recorded 3456 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748352877/PartB/scope_0011.png ... Finished.
+Checking for activity on the LEDs...
+Selected LED1 as active, using it for further grading.
+  Passed.
+Trying to decode:
+7_1_0_5_0_
+NOTE: Unclassifiable high or low times are marked with ^ and _ respectively. If a letter could not be decoded, the dot-dash pattern is printed in paranthesis. Auto-detected dot length: 0.100000s
+Checking if a numeric value is sent...  Passed.
+Checking if time in ms between last and second last press of Button1 is sent, expecting a value between 70789 and 71289...  Failed.
+Checking output after pressing Button1 again... recorded 3504 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748352877/PartB/scope_0012.png ... Finished.
+Checking for activity on the LEDs...
+Selected LED1 as active, using it for further grading.
+  Passed.
+Trying to decode:
+i_c_a_n_m_o_r_s_e_
+NOTE: Unclassifiable high or low times are marked with ^ and _ respectively. If a letter could not be decoded, the dot-dash pattern is printed in paranthesis. Auto-detected dot length: 0.100000s
+Checking if the required string is transmitted exactly once...  Failed.
+Point summary:
+A correct LED blinks   0.5 out of   0.5
+A 10Hz speed           0.5 out of   0.5
+A 5s break             0.5 out of   0.5
+A any Morse letter     1.0 out of   1.0
+A whole string         0.0 out of   1.0
+A signal lengths       0.0 out of   0.5
+B silent after boot    0.5 out of   0.5
+B Button1 reaction     0.5 out of   0.5
+B Button1 output       0.0 out of   0.5
+B Button2 reaction     0.5 out of   0.5
+B numeric value        0.5 out of   0.5
+B 0 case               0.5 out of   0.5
+B 1 case               0.0 out of   1.0
+B 2 case               0.0 out of   1.0
+                     -----        -----
+Total                  5.0 out of   9.0

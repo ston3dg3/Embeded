@@ -1,0 +1,83 @@
+### Grading of Deliverable1/Franciszek Hordejuk - moodleid_175673/1748202491/PartA started at 2025-05-25 22:01:22.490956 ### 
+
+Trying to flash Deliverable1/Franciszek Hordejuk - moodleid_175673/1748202491/PartA/build/main.hex ... successful.
+Starting check of output for PartA. Observing LEDs... recorded 3504 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748202491/PartA/scope_0002.png ... Finished.
+Checking for activity on the LEDs...
+Selected LED2 as active, using it for further grading.
+Checking if there is a break of 5s +/- 0.5s... Found: 5.699998, 2.958333  Failed.
+Trying to decode:
+(^.) a n m o r s e_i c a n m o r s e_
+NOTE: Unclassifiable high or low times are marked with ^ and _ respectively. If a letter could not be decoded, the dot-dash pattern is printed in paranthesis. Auto-detected dot length: 0.100000s
+Checking auto detected dotlength is within 100ms +/- 10ms...  Passed.
+Checking if any letter could be decoded...  Passed.
+Checking if the whole string could be decoded...  Failed.
+Checking for incorrect high/low times...  Failed.
+### Grading of Deliverable1/Franciszek Hordejuk - moodleid_175673/1748202491/PartB started at 2025-05-25 22:09:51.325874 ### 
+
+Trying to flash Deliverable1/Franciszek Hordejuk - moodleid_175673/1748202491/PartB/build/main.hex ... successful.
+Starting check of output for PartB.
+Resetting target to take time after boot.
+Observing LEDs... recorded 1200 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748202491/PartB/scope_0017.png ... Finished.
+Checking for no activity on the LEDs...
+  Passed.
+Checking output after pressing Button2 once... recorded 1728 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748202491/PartB/scope_0018.png ... Finished.
+Checking for activity on the LEDs...
+Selected LED2 as active, using it for further grading.
+  Passed.
+Trying to decode:
+j_
+NOTE: Unclassifiable high or low times are marked with ^ and _ respectively. If a letter could not be decoded, the dot-dash pattern is printed in paranthesis. Auto-detected dot length: 0.100000s
+Checking if a numeric value is sent...  Failed.
+Skipping further check of output since it was not numeric.
+Checking output after pressing Button1 once... recorded 3504 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748202491/PartB/scope_0019.png ... Finished.
+Checking for activity on the LEDs...
+Skipping check of correct transmission since no LED was active.
+Checking output after pressing Button2 again... recorded 3264 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748202491/PartB/scope_0020.png ... Finished.
+Checking for activity on the LEDs...
+Selected LED2 as active, using it for further grading.
+  Passed.
+Trying to decode:
+a1950_
+NOTE: Unclassifiable high or low times are marked with ^ and _ respectively. If a letter could not be decoded, the dot-dash pattern is printed in paranthesis. Auto-detected dot length: 0.100000s
+Checking if a numeric value is sent...  Failed.
+Skipping further check of output since it was not numeric.
+Checking output after pressing Button1 again... recorded 3504 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748202491/PartB/scope_0021.png ... Finished.
+Checking for activity on the LEDs...
+Skipping check of correct transmission since no LED was active.
+Checking output after pressing Button2 again... recorded 3168 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748202491/PartB/scope_0022.png ... Finished.
+Checking for activity on the LEDs...
+Selected LED2 as active, using it for further grading.
+  Passed.
+Trying to decode:
+s7340_
+NOTE: Unclassifiable high or low times are marked with ^ and _ respectively. If a letter could not be decoded, the dot-dash pattern is printed in paranthesis. Auto-detected dot length: 0.100000s
+Checking if a numeric value is sent...  Failed.
+Skipping further check of output since it was not numeric.
+Checking output after pressing Button1 again... recorded 3504 samples at 120.000034 SPS.
+Saving blinking pattern as Deliverable1/Franciszek Hordejuk - moodleid_175673/1748202491/PartB/scope_0023.png ... Finished.
+Checking for activity on the LEDs...
+Skipping check of correct transmission since no LED was active.
+Point summary:
+A correct LED blinks   0.0 out of   0.5
+A 10Hz speed           0.5 out of   0.5
+A 5s break             0.0 out of   0.5
+A any Morse letter     1.0 out of   1.0
+A whole string         0.0 out of   1.0
+A signal lengths       0.0 out of   0.5
+B silent after boot    0.5 out of   0.5
+B Button1 reaction     0.0 out of   0.5
+B Button1 output       0.0 out of   0.5
+B Button2 reaction     0.5 out of   0.5
+B numeric value        0.0 out of   0.5
+B 0 case               0.0 out of   0.5
+B 1 case               0.0 out of   1.0
+B 2 case               0.0 out of   1.0
+                     -----        -----
+Total                  2.5 out of   9.0
